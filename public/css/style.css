@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header {
+    background-color: bisque;
+   
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    text-decoration: solid;
+}
+
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem;
+    padding: 0 0 1rem 0;
+}
+
+header nav button {
+    padding: .3rem;
+    justify-items: center;
+    background-color: rgb(207, 117, 101);
+    margin: .5rem;
+    border: 0;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+main {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+main #message-cookie {
+    border-style: solid;
+    border-radius: .5em;
+    border-color: rgb(190, 122, 34);
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+main #message-cookie :hover {
+
+    border-color: rgb(250, 212, 0);
+    padding: 1%;
+}
+
+main #message-cookie p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main div input[type = 'submit'] {
+    padding: .3rem;
+    justify-items: center;
+    background-color: rgb(207, 117, 101);
+    margin: .5rem;
+    border: 0;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+main div input[type='submit']:hover {
+    background-color: red;
+}
+
+main div input[type = 'text'] {
+    padding: .3rem;
+    justify-items: center;
+    background-color: rgb(207, 117, 101);
+    margin: .5rem;
+    border: 0;
+    border-radius: .5rem;
+    font-weight: bold;
+    
+}
+
+main div input[type='text']:hover {
+    background-color: red;
+}
+
+main #taches-div {
+    margin: 50px;
+}
+
+footer {
+    background-color: bisque;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}

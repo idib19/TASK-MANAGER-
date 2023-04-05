@@ -1,0 +1,23 @@
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main li {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+#form-tache {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textbox-tache {
+    width: 300px;
+    padding: .5rem;
+}
